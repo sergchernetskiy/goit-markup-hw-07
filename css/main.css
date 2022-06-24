@@ -290,7 +290,7 @@ ul {
   font-size: 36px;
   line-height: 1.167;
   color: var(--color-text-primary);
-  margin: 0 auto;
+  text-align: center;
 }
 
 .personal-card {
