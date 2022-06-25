@@ -11,7 +11,7 @@
    }
 }
 
-.logo--active {
+.logo__active {
    color: var(--color-text-title);
 
    transition: color 250ms var(--timing-function);
@@ -22,7 +22,7 @@
    }
 }
 
-.logo--inverse {
+.logo__inverse {
    color: var(--color-text-contrast);
 
    transition: color 250ms var(--timing-function);

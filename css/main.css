@@ -81,21 +81,21 @@ ul {
   border-radius: 4px;
 }
 
-.logo--active {
+.logo__active {
   color: var(--color-text-title);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.logo--active:hover, .logo--active:focus {
+.logo__active:hover, .logo__active:focus {
   color: var(--color-text-accent);
 }
 
-.logo--inverse {
+.logo__inverse {
   color: var(--color-text-contrast);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
-.logo--inverse:hover, .logo--inverse:focus {
+.logo__inverse:hover, .logo__inverse:focus {
   color: var(--color-text-accent);
 }
 
@@ -294,7 +294,7 @@ ul {
 }
 
 .personal-card {
-  background: var(--main-background);
+  background: var(--color-bg-main);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
